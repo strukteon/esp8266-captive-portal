@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body, html {
+            font-family: sans-serif;
+            padding: 0;
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(to right top, rgb(39, 196, 245), rgb(163, 7, 186));
+        }
+        body {
+            padding-bottom: 1rem;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        main > * {
+            display: block;
+        }
+
+        main > div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            padding: 1rem;
+            border-radius: 2rem;
+        }
+
+        img {
+            max-width: 70vw;
+            padding: 1rem;
+        }
+
+        h1 {
+            font-weight: 800;
+            font-size: 3rem;
+            background-color: white;
+            padding: .5rem 1.4rem;
+            border-radius: 1rem;
+        }
+
+        a {
+            color: black;
+            border-bottom: dotted 2px black;
+            text-decoration: none;
+        }
+
+        p {
+            background-color: white;
+            margin-bottom: 0;
+            padding: .5rem 1rem 1rem;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Sup!</h1>
+        <p>Add me on insta:</p>
+        <div class="insta">
+            <img src="/instagram.svg"/>
+            <a href="https://www.instagram.com/nils.e.s?utm_source=qr">nils.e.s</a>
+        </div>
+        <p>or snap:</p>
+        <div class="snap">
+            <img src="/snapchat.svg"/>
+            <span>strukteon</span>
+        </div>
+    </main>
+</body>
+</html>
